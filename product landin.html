@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<!-- saved from url=(0076)file:///home/shanil/Desktop/areesha's%20html/project3+/product%20landin.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <header id="header">
+        <nav id="nav-bar">
+            <img id="header-img" src="./product landin_files/original_trombones.png" alt="original_trombones">
+        <div class="nav-div">
+            <a class="nav-link" href="#features"> Features</a>
+            <a class="nav-link" href="#video">How It Works</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </div>
+      </nav>
+          </header>
+        
+    
+</head><body class="body">
+
+    <div class="main-div">
+        <!-- main div -->
+        <div class="heading">
+            <h2 style="margin-top: 5%;">Handcrafted, home-made masterpieces</h2>
+        <form  id="form" action="https://www.freecodecamp.org/email-submit"> 
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required="">
+            <input type="submit"  value="submit" class="button" id="submit">        
+        </form>
+        </div>
+
+        <div class="features" id="features">
+            <span class="fas fa-tuser"></span>
+                <h4 class="text">Premium Materials</h4>
+                <p class="description">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                
+                <h4 class="text">Fast Shipping</h4>
+                <p class="description">We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                
+                <h4 class="text">Quality Assurance</h4>
+                <p class="description">For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+        </div>
+
+        <div class="me">
+            <div >
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/SrSl6T1My00" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="pricing" id="pricing">
+            <div class="div1">
+                <h6 class="last-heading">TENOR TROMBONE</h6>
+                <strong><p class="price">$600</p></strong>
+                <p class="discription">Lorem ipsum.</p>
+                <p class="discription">Lorem ipsum.</p>
+                <p class="discription">Lorem ipsum dolor.</p>
+                <p class="discription">Lorem ipsum.</p>
+                <button class="button2">SELECT</button>
+            </div>
+        
+            <div class="div1">
+                <h6 class="last-heading">BASS TROMBONE</h6>
+                <strong><p class="price">$900</p></strong>
+                <p class="discription">Lorem ipsum.</p>
+                <p class="discription">Lorem ipsum.</p>
+                <p class="discription">Lorem ipsum dolor.</p>
+                <p class="discription">Lorem ipsum.</p>
+                <button class="button2">SELECT</button>
+            </div>
+        
+            <div class="div1">
+                <h6 class="last-heading">VALVE TROMBONE</h6>
+                <strong><p class="price">$1200</p></strong>
+                <p class="discription">Lorem ipsum.</p>
+                <p class="discription">Lorem ipsum.</p>
+                <p class="discription">Lorem ipsum dolor.</p>
+                <p class="discription">Lorem ipsum.</p>
+                <button class="button2">SELECT</button>
+            </div>
+        </div>
+
+        <!-- main div end -->
+    </div>
+</body></html>
+    
+
+
+<style>
+
+.body{
+    background-color: rgb(233, 230, 230);
+    margin: 0px;
+}
+
+
+#header{
+    
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    background-color: rgb(233, 230, 230);
+  
+}
+#header-img{
+    height: 35px;
+    
+}
+
+#nav-bar{
+  position: fixed;
+    flex-direction: row;
+    background-color: rgb(233, 230, 230);
+  margin-top:-7%;
+  width:100%;
+  height:80px
+}
+
+
+.nav-div{
+    
+  padding-left:30%;
+    display:flex;
+  flex-direction:row
+
+}
+
+.nav-link{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-decoration: none;
+    color: #000;
+}
+
+.main-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7%;
+}
+
+#email{
+    height: 20px;
+    width: 140%;
+    margin-left: -15%;
+    
+}
+
+.button{
+    background-color: #F1c40f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+    height: 40px;
+    width: 10em;
+    padding: 3%;
+    font-size: larger;
+    border: none;
+
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.description{
+    margin-top: -4.25%;
+    font-family: sans-serif;
+}
+
+.text{
+   font-size: 190%;
+    font-family: sans-serif;
+}
+
+#video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.pricing{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2%;
+
+    
+}
+
+.last-heading{
+    background-color: darkgray;
+    font-size: large;
+    margin-top: 2px;
+    height: 40px;
+    width: 110%;
+    display: flex;
+    text-align: center;
+}
+
+.div1{
+    border: 1.5px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 2% 2% 2%;
+    margin: 10px;
+    margin-left: 2px;
+    width: 310px;
+}
+
+.price{
+    font-size: x-large;
+    margin-top: -40px;
+    font-size: xx-large;
+    margin-bottom: -3%;
+
+}
+
+.discription{
+    margin-top: -2%;
+    font-family: sans-serif;
+}
+
+.button2{
+    background-color: yellow;
+    width: 40%;
+    height: 40px;
+}
+
+@media (max-width: 300px) {
+    .pricing{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+    }
+}
+</style>
+</body></html>
